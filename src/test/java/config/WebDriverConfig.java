@@ -10,7 +10,7 @@ import java.net.URL;
 public interface WebDriverConfig extends Config {
 
     @Key("browser.name")
-    @DefaultValue("CHROME")
+    @DefaultValue("chrome")
     String getBrowserName();
 
     @Key("browser.version")
