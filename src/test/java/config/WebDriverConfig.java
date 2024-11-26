@@ -23,4 +23,13 @@ public interface WebDriverConfig extends Config {
 
     @Key("remoteUrl")
     URL getRemoteURL();
+
+    @Key("pageLoadStrategy")
+    @DefaultValue("eager")
+    String getPageLoadStrategy();
+
+
+    @Key("timeout")
+    @DefaultValue("4000")
+    long getTimeout();
 }
