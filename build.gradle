@@ -13,7 +13,7 @@ def junitVersion = "5.11.3",
     allureVersion = "2.29.0",
     assertjVersion = "3.24.2",
     webdrivermanagerVersion = "5.9.2",
-    ownerVersion = "1.0.4"
+    ownerVersion = "1.0.12"
 
 
 repositories {
