@@ -11,7 +11,9 @@ def junitVersion = "5.11.3",
     selenideVersion = "7.5.1",
     restAssuredVersion = "5.5.0",
     allureVersion = "2.29.0",
-    assertjVersion = "3.24.2"
+    assertjVersion = "3.24.2",
+    webdrivermanagerVersion = "5.9.2",
+    ownerVersion = "1.0.4"
 
 
 repositories {
@@ -40,7 +42,9 @@ dependencies {
             "io.rest-assured:json-schema-validator:$restAssuredVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
-            "org.assertj:assertj-core:$assertjVersion"
+            "org.assertj:assertj-core:$assertjVersion",
+            "io.github.bonigarcia:webdrivermanager:$webdrivermanagerVersion",
+            "org.aeonbits.owner:owner:$ownerVersion",
     )
 }
 
