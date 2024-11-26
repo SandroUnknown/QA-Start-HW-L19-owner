@@ -1,7 +1,7 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
-import config.configRunner;
+import config.ConfigRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import helpers.Attach;
@@ -20,7 +20,7 @@ public class TestBase {
         RestAssured.baseURI = "https://demoqa.com";
         Configuration.baseUrl = "https://demoqa.com";
 
-        new configRunner();
+        new ConfigRunner();
     }
 
     @BeforeEach
