@@ -28,7 +28,6 @@ public interface WebDriverConfig extends Config {
     @DefaultValue("eager")
     String getPageLoadStrategy();
 
-
     @Key("timeout")
     @DefaultValue("4000")
     long getTimeout();
