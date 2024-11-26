@@ -6,11 +6,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-public class WebDriverProvider {
+public class configRunner {
 
     private final WebDriverConfig config;
 
-    public WebDriverProvider() {
+    public configRunner() {
         this.config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
         createDriver();
     }
